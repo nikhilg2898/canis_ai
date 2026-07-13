@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canis AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <div class="logo-circle">🐺</div>
+        <div class="logo-text">
+          <h2>Canis AI</h2>
+          <p>Powered by AI</p>
+        </div>
+      </div>
+      <button id="new-chat-btn" class="new-chat-btn">
+        <i data-lucide="plus"></i> New Chat
+      </button>
+      <div class="chat-history">
+        <h3>Recent Chats</h3>
+        <div class="history-item">Welcome Chat</div>
+      </div>
+    </aside>
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Header -->
+      <header class="header">
+        <div>
+          <h1>Canis AI</h1>
+          <p>The loyal AI crony</p>
+        </div>
+        <button class="settings-btn">
+          <i data-lucide="settings"></i>
+        </button>
+      </header>
+      <!-- Chat Area -->
+      <section id="chat-container" class="chat-container"></section>
+      <!-- Typing Indicator -->
+      <div id="typing-indicator" class="typing hidden">
+        <span></span> <span></span> <span></span>
+      </div>
+      <!-- Chat Form -->
+      <form id="chat-form" class="chat-input-area">
+        <button type="button" class="icon-btn">
+          <i data-lucide="paperclip"></i>
+        </button>
+        <textarea id="user-input" rows="1"></textarea>
+        <button type="button" class="icon-btn">
+          <i data-lucide="mic"></i>
+        </button>
+        <button id="send-btn" class="send-btn" type="submit">
+          <i data-lucide="send"></i>
+        </button>
+      </form>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

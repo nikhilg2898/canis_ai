@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment variables / API Keys (Crucial for your Groq Key!)
+.env
+
+# Project specific folders
+uploads/
+logs/
+
+# IDE configuration folders
+.idea/
+.vscode/
+
+# System files
+.DS_Store
