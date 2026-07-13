@@ -3,7 +3,7 @@
 // ==========================================
 
 // Backend API Configuration
-const API_URL = "http://127.0.0.1:8000/chat";
+const API_URL = "https://canis-ai-frs2.onrender.com";
 
 // Elements
 const chatContainer = document.getElementById('chat-container');
